@@ -11,60 +11,39 @@
 </head>
 
 <body class="max-w-4xl m-auto bg-black text-white">
-    <!-- top  with logo  -->
-    <header class="flex justify-center items-center h-8 bg-pink-500">
+   
+    <!-- tabs that can be clicked or auto change if scrolled to that section -->
+    <nav class="overflow-x-auto flex  fixed top-0 z-50 max-w-4xl bg-pink-500 ">
+        <a href="#menu" class="p-2 ">MENUS</a>
+        <a href="#doner" class="p-2">DÖNER</a>
+        <a href="#durum" class="p-2">DÜRÜM</a>
+        <a href="#pita" class="p-2">PITA</a>
+        <a href="#hamburguesas" class="p-2">HAMBURGUESAS</a>
+        <a href="#lamachun" class="p-2">LAHMACHUN</a>
+        <a href="#combinados" class="p-2">PLATOS_COMBINADOS</a>
+        <a href="#ensaladas" class="p-2">ENSALADAS</a>
+        <a href="#bocadillos" class="p-2">BOCADILLOS</a>
+        <a href="#bikinis" class="p-2">BIKINIS</a>
+        <a href="#pizza" class="p-2">PIZZAS</a>
+        <a href="#refrescos" class="p-2">REFRESCOS</a>
+        <a href="#cervezas" class="p-2">CERVEZAS</a>
+        <a href="#gin-tonics" class="p-2">GIN_TONICS</a>
+    </nav>
+
+ <!-- top  with logo  -->
+
+    <header class="flex justify-center items-center h-24 bg-pink-500 mt-10 ">
         <img src="img/logo.svg" alt="logo" class="h-12">
     </header>
 
 
-
-
-    <!-- tabs that can be clicked or auto change if scrolled to that section -->
-    <nav class="overflow-x-auto flex  ">
-        <a href="" class="p-2">Offer</a>
-        <a href="" class="p-2">Pizza</a>
-        <a href="" class="p-2">Kebab</a>
-        <a href="" class="p-2">Dessert</a>
-        <a href="" class="p-2">Drinks</a>
-        <a href="" class="p-2">Burgers</a>
-        <a href="" class="p-2">Salads</a>
-        <a href="" class="p-2">Sides</a>
-        <a href="" class="p-2">Kids</a>
-        <a href="" class="p-2">Extras</a>
-
-    </nav>
-
-    <!-- Offer section -->
-    <!-- <div class="m-1">
-        <h1 class="text-4xl text-pink-500 text-left underline font-extrabold">Offers</h1>
-        <div class=" flex  rounded-xl justify-between items-center p-2  bg-pink-500 ">
-
-            <img src="img/pizza.svg" alt="pizza" class="h-12">
-            <p class=" ">
-                1 pizza <br>
-                1 drink <br>
-                1 dessert
-            </p>
-            <p class="text-3xl"> 20.00€ </p>
-        </div>
-        <div class="flex  rounded-xl justify-between items-center p-2">
-
-            <img src="img/pizza.svg" alt="pizza" class="h-12">
-            <p class=" ">
-                1 pizza <br>
-                1 drink <br>
-                1 dessert
-            </p>
-            <p class="text-3xl"> 20.00€ </p>
-        </div>
-    </div> -->
 
     <!-- MENUS
     MENU DURUM(POLLO O TERNERA O MIXTO O FALAFEL O QUESO).    8,50€
     MENU DONER(..........). 8,50
     MENU PITA KEBAB(......) 8,50€
     Menu LAHMACHUN.  8,50 -->
-    <div class="m-2 rounded-lg  ">
+    <div class="m-2 rounded-lg" id="menu">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -120,7 +99,7 @@
     all döners price —- 5,50€    -->
 
 
-    <div class="m-2 rounded-lg  ">
+    <div class="m-2 rounded-lg" id="doner">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -194,7 +173,7 @@
     prcie durum — 5,50€ ah -->
 
 
-    <div class="m-2 rounded-lg  ">
+    <div class="m-2 rounded-lg" id="durum">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -267,7 +246,7 @@
     PITA KEBAB SOLO CARNE    
     all pitas price is — 5.50€ -->
 
-    <div class="m-2 rounded-lg  ">
+    <div class="m-2 rounded-lg" id="pita">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -344,7 +323,7 @@
     —(lechuga,tomate,cebolla,queso)—-
     all burger price is 4,50€ -->
 
-    <div class="m-2 rounded-lg  ">
+    <div class="m-2 rounded-lg " id="hamburguesas">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -387,7 +366,7 @@
     LAHMACUN MIXTO    
     all lahmacun price is - 5,95€  -->
 
-    <div class="m-2 rounded-lg  ">
+    <div class="m-2 rounded-lg " id="lahmacun">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -433,7 +412,7 @@
 
         2.	(PLATO DE FALAFEL)— 6,95€
     —(con ensalada, patatas y salsa)— -->
-    <div class="m-2 rounded-lg  ">
+    <div class="m-2 rounded-lg  " id="combinados">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -492,7 +471,7 @@ ENSALADAS MIXTA.    7,50
 ENSALADA CON ATUN.    7,90
 ENSALADA CON QUESO CABRA 7,90
 -->
-    <div class="m-2 rounded-lg  ">
+    <div class="m-2 rounded-lg " id="ensaladas">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -557,7 +536,7 @@ ENSALADA CON QUESO CABRA 7,90
                 bocadillo de tortilla francesa-4,95€
                 bocadillo de queso - 4,95€ -->
 
-    <div class="m-2 rounded-lg  ">
+    <div class="m-2 rounded-lg " id="bocadillos">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -605,7 +584,7 @@ ENSALADA CON QUESO CABRA 7,90
                 1. bikini -de jamón york y con queso — 3,45€
                 2. bikini- de doble [2×] jamón york y doble [2×] queso —3,95€ -->
 
-    <div class="m-2 rounded-lg  ">
+    <div class="m-2 rounded-lg " id="bikinis">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -659,7 +638,7 @@ ENSALADA CON QUESO CABRA 7,90
 
 PIZZAS de 26cm all price is 7,75€ 
 PIZZAS de 32cm all price is 9,75€  -->
-    <div class="m-2 rounded-lg  ">
+    <div class="m-2 rounded-lg  " id="pizzas">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -781,7 +760,7 @@ PIZZAS de 32cm all price is 9,75€  -->
     AGUA 50cl 1,75
     AGUA 1.5l  2,50
     -->
-    <div class="m-2 rounded-lg  ">
+    <div class="m-2 rounded-lg  " id="refrescos">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -876,10 +855,10 @@ PIZZAS de 32cm all price is 9,75€  -->
     coronita 2,80
     desperados mojito 2,80
     FRE DAM ZERO LIMON Y AZUL 2,30 -->
-   
 
 
-    <div class="m-2 rounded-lg  ">
+
+    <div class="m-2 rounded-lg  " id="cervezas">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -963,7 +942,7 @@ PIZZAS de 32cm all price is 9,75€  -->
     BOMBAY.      8,90
     CON REDBULL +1€ -->
 
-    <div class="m-2 rounded-lg  ">
+    <div class="m-2 rounded-lg  " id="gin-tonic">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -1016,17 +995,8 @@ PIZZAS de 32cm all price is 9,75€  -->
                     <td class="w-12   bg-pink-500 ">+1€</td>
                 </tr>
             </tbody>
-
-
-
-
-
-
-
-
-
-
-
+        </table>
+    </div>
 
     <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
 </body>
