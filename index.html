@@ -7,33 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Big Byte</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/1.css">
+    <style>
+       
+
+        .nav-link.active,
+        .nav-link:hover {
+            background-color: black;
+            
+        }
+    </style>
+
 </head>
 
 <body class="max-w-4xl m-auto bg-black text-white">
-   
+
     <!-- tabs that can be clicked or auto change if scrolled to that section -->
     <nav class="overflow-x-auto flex  fixed top-0 z-50 max-w-4xl w-full bg-pink-500 ">
-        <a href="#menu" class="p-2 ">MENUS</a>
-        <a href="#doner" class="p-2">DÖNER</a>
-        <a href="#durum" class="p-2">DÜRÜM</a>
-        <a href="#pita" class="p-2">PITA</a>
-        <a href="#hamburguesas" class="p-2">HAMBURGUESAS</a>
-        <a href="#lamachun" class="p-2">LAHMACHUN</a>
-        <a href="#combinados" class="p-2">PLATOS_COMBINADOS</a>
-        <a href="#ensaladas" class="p-2">ENSALADAS</a>
-        <a href="#bocadillos" class="p-2">BOCADILLOS</a>
-        <a href="#bikinis" class="p-2">BIKINIS</a>
-        <a href="#pizza" class="p-2">PIZZAS</a>
-        <a href="#refrescos" class="p-2">REFRESCOS</a>
-        <a href="#cervezas" class="p-2">CERVEZAS</a>
-        <a href="#gin-tonics" class="p-2">GIN_TONICS</a>
-        
+        <a href="#menu" class="nav-link p-2  " data-target="menu">MENUS</a>
+        <a href="#doner" class="nav-link p-2 " data-target="doner">DÖNER</a>
+        <a href="#durum" class="nav-link p-2 " data-target="durum">DURUM</a>
+        <a href="#pita" class="nav-link p-2 " data-target="pita">PITA</a>
+        <a href="#hamburguesas" class="nav-link p-2 " data-target="hamburguesas">HAMBURGUESAS</a>
+        <a href="#lamacun" class="nav-link p-2 " data-target="lamacun">LAHMACUN</a>
+        <a href="#combinados" class="nav-link p-2  whitespace-nowrap" data-target="combinados">PLATOS COMBINADOS</a>
+        <a href="#ensaladas" class="nav-link p-2 " data-target="ensaladas">ENSALADAS</a>
+        <a href="#bocadillos" class="nav-link p-2 " data-target="bocadillos">BOCADILLOS</a>
+        <a href="#bikinis" class="nav-link p-2 " data-target="bikinis">BIKINIS</a>
+        <a href="#pizzas" class="nav-link p-2 " data-target="pizzas">PIZZAS</a>
+        <a href="#refrescos" class="nav-link p-2 " data-target="refrescos">REFRESCOS</a>
+        <a href="#cervezas" class="nav-link p-2 " data-target="cervezas">CERVEZAS</a>
+        <a href="#gintonic" class="nav-link p-2  whitespace-nowrap " data-target="gintonic">GIN TONICS</a>
+
     </nav>
 
- <!-- top  with logo  -->
+    <!-- top  with logo  -->
 
-    <header class="flex justify-center items-center h-24 bg-pink-500 mt-10 ">
+    <header class="flex justify-center items-center h-24 bg-pink-500 pt-10">
         <img src="img/logo.svg" alt="logo" class="h-12">
     </header>
 
@@ -44,7 +53,7 @@
     MENU DONER(..........). 8,50
     MENU PITA KEBAB(......) 8,50€
     Menu LAHMACHUN.  8,50 -->
-    <div class="m-2 rounded-lg" id="menu">
+    <div class="m-2 pt-10" id="menu">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -85,6 +94,7 @@
                     </td>
                     <td class="flex-grow   text-left ">MENU LAHMACHUN </td>
                     <td class="w-12   bg-pink-500 ">8.50€</td>
+                </tr>
             </tbody>
         </table>
     </div>
@@ -100,7 +110,7 @@
     all döners price —- 5,50€    -->
 
 
-    <div class="m-2 rounded-lg" id="doner">
+    <div class="m-2 pt-10" id="doner">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -174,7 +184,7 @@
     prcie durum — 5,50€ ah -->
 
 
-    <div class="m-2 rounded-lg" id="durum">
+    <div class="m-2 pt-10" id="durum">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -247,7 +257,7 @@
     PITA KEBAB SOLO CARNE    
     all pitas price is — 5.50€ -->
 
-    <div class="m-2 rounded-lg" id="pita">
+    <div class="m-2 pt-10" id="pita">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -324,7 +334,7 @@
     —(lechuga,tomate,cebolla,queso)—-
     all burger price is 4,50€ -->
 
-    <div class="m-2 rounded-lg " id="hamburguesas">
+    <div class="m-2 pt-10" id="hamburguesas">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -367,7 +377,7 @@
     LAHMACUN MIXTO    
     all lahmacun price is - 5,95€  -->
 
-    <div class="m-2 rounded-lg " id="lahmacun">
+    <div class="m-2 pt-10" id="lamacun">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -413,11 +423,11 @@
 
         2.	(PLATO DE FALAFEL)— 6,95€
     —(con ensalada, patatas y salsa)— -->
-    <div class="m-2 rounded-lg  " id="combinados">
+    <div class="m-2 pt-10" id="combinados">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
-                    <th class="text-4xl text-pink-500 text-left underline "> PLATOS COMBINADOS</th>
+                    <th class="text-4xl text-pink-500 text-left underline whitespace-nowrap"> PLATO COMBINADOS</th>
                     <th class="w-1/2 flex-grow"></th>
                     <th class="w-12 bg-pink-600 ">€</th>
                 </tr>
@@ -472,7 +482,7 @@ ENSALADAS MIXTA.    7,50
 ENSALADA CON ATUN.    7,90
 ENSALADA CON QUESO CABRA 7,90
 -->
-    <div class="m-2 rounded-lg " id="ensaladas">
+    <div class="m-2 pt-10" id="ensaladas">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -537,7 +547,7 @@ ENSALADA CON QUESO CABRA 7,90
                 bocadillo de tortilla francesa-4,95€
                 bocadillo de queso - 4,95€ -->
 
-    <div class="m-2 rounded-lg " id="bocadillos">
+    <div class="m-2 pt-10" id="bocadillos">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -585,7 +595,7 @@ ENSALADA CON QUESO CABRA 7,90
                 1. bikini -de jamón york y con queso — 3,45€
                 2. bikini- de doble [2×] jamón york y doble [2×] queso —3,95€ -->
 
-    <div class="m-2 rounded-lg " id="bikinis">
+    <div class="m-2 pt-10" id="bikinis">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -639,7 +649,7 @@ ENSALADA CON QUESO CABRA 7,90
 
 PIZZAS de 26cm all price is 7,75€ 
 PIZZAS de 32cm all price is 9,75€  -->
-    <div class="m-2 rounded-lg  " id="pizzas">
+    <div class="m-2 pt-10 " id="pizzas">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -761,7 +771,7 @@ PIZZAS de 32cm all price is 9,75€  -->
     AGUA 50cl 1,75
     AGUA 1.5l  2,50
     -->
-    <div class="m-2 rounded-lg  " id="refrescos">
+    <div class="m-2 pt-10 " id="refrescos">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -859,7 +869,7 @@ PIZZAS de 32cm all price is 9,75€  -->
 
 
 
-    <div class="m-2 rounded-lg  " id="cervezas">
+    <div class="m-2 pt-10 " id="cervezas">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -943,7 +953,7 @@ PIZZAS de 32cm all price is 9,75€  -->
     BOMBAY.      8,90
     CON REDBULL +1€ -->
 
-    <div class="m-2 rounded-lg  " id="gin-tonic">
+    <div class="m-2 pt-10 " id="gintonic">
         <table class="w-full table-fixed text-center ">
             <thead>
                 <tr>
@@ -1000,6 +1010,46 @@ PIZZAS de 32cm all price is 9,75€  -->
     </div>
 
     <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+    <script>
+        // get all nav links
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        // add click event listener to each nav link
+        navLinks.forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault(); // prevent default behavior of link click
+                const targetId = link.dataset.target; // get the id of target section
+                const targetSection = document.getElementById(targetId); // get the target section
+                const offsetTop = targetSection.offsetTop; // get the distance of target section from top of the page
+                window.scrollTo({ top: offsetTop, behavior: 'smooth' }); // scroll to target section with smooth behavior
+                setActiveLink(link); // set active link
+            });
+        });
+
+        // add scroll event listener to window
+        window.addEventListener('scroll', () => {
+            const currentPosition = window.pageYOffset; // get the current position of window
+            // check each section to see if it is in the viewport
+            navLinks.forEach(link => {
+                const targetId = link.dataset.target; // get the id of target section
+                const targetSection = document.getElementById(targetId); // get the target section
+                if (targetSection.offsetTop <= currentPosition && targetSection.offsetTop + targetSection.offsetHeight > currentPosition) {
+                    setActiveLink(link); // set active link
+                }
+            });
+        });
+
+        // function to set active link
+        function setActiveLink(activeLink) {
+            // remove active class from all links
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+            });
+            // add active class to active link
+            activeLink.classList.add('active');
+        }
+    </script>
+
 </body>
 
 </html>
