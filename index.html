@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Big Byte</title>
+    <title>Big Bites</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .nav-link.active,
@@ -37,9 +37,20 @@
         <a href="#bocadillos" class="nav-link p-2 " data-target="bocadillos">BOCADILLOS</a>
         <a href="#bikinis" class="nav-link p-2 " data-target="bikinis">BIKINIS</a>
         <a href="#pizzas" class="nav-link p-2 " data-target="pizzas">PIZZAS</a>
+       
+        <a href="#cafe" class="nav-link p-2 " data-target="cafe">CAFE</a>
         <a href="#refrescos" class="nav-link p-2 " data-target="refrescos">REFRESCOS</a>
         <a href="#cervezas" class="nav-link p-2 " data-target="cervezas">CERVEZAS</a>
         <a href="#gintonic" class="nav-link p-2  whitespace-nowrap " data-target="gintonic">GIN TONICS</a>
+       <a href="#cubatasTubo" class="nav-link p-2  whitespace-nowrap " data-target="cubatasTubo">CUBATAS TUBO</a>
+       <a href="#cubatasBalon" class="nav-link p-2  whitespace-nowrap " data-target="cubatasBalon">CUBATAS BALON</a>
+       <a href="#chupitos" class="nav-link p-2  whitespace-nowrap " data-target="chupitos">CHUPITOS</a>
+       <a href="#copasWhisky" class="nav-link p-2  whitespace-nowrap " data-target="copasWhisky">COPAS WHISKY</a>
+       <a href="#vodka" class="nav-link p-2  whitespace-nowrap " data-target="vodka">VODKA</a>
+       <a href="#vodkaBalon" class="nav-link p-2  whitespace-nowrap " data-target="vodkaBalon">VODKA BALON</a>
+       <a href="#chupitoVodka" class="nav-link p-2  whitespace-nowrap " data-target="chupitoVodka">CHUPITO VODKA</a>
+
+
 
     </nav>
 
@@ -54,14 +65,16 @@
 
     <!-- MENUS  -->
     <div class="m-2 pt-10" id="menu">
-        <h1 class="text-3xl text-pink-500 text-left underline ">MENU</h1>
+
+        <h1 class="text-3xl text-pink-500 text-left underline ">MENU <br><span class="text-base">+ PATATAS FRITAS +
+                REFRESCOS</span> </h1>
 
         <table class="w-full table-fixed text-center ">
 
             <tbody>
                 <tr>
                     <td class="w-16">
-                        <img src="img/menuDoner.png" alt="menu doner" class="h-8 inline-block">
+                        <img src="img/durum.png" alt="durum pollo" class="h-10 inline-block">
                     </td>
                     <td class="flex-grow   text-left px-3 ">MENU DURUM <br> (POLLO O TERNERA O MIXTO O FALAFEL O
                         QUESO)</td>
@@ -70,7 +83,7 @@
                 </tr>
                 <tr>
                     <td class="w-16">
-                        <img src="img/menuDoner.png" alt="menu doner" class="h-8 inline-block">
+                        <img src="img/doner.png" alt="doner pollo" class="h-8 inline-block">
                     </td>
                     <td class="flex-grow   text-left px-3 ">MENU DONER <br> (POLLO O TERNERA O MIXTO O FALAFEL O
                         QUESO)</td>
@@ -78,7 +91,7 @@
                 </tr>
                 <tr>
                     <td class="w-16">
-                        <iconify-icon icon="game-icons:meat" width="40" height="40"> </iconify-icon>
+                        <img src="img/doner.png" alt="doner pollo" class="h-8 inline-block">
                     </td>
                     <td class="flex-grow   text-left px-3 ">MENU PITA KEBAB <br> (POLLO O TERNERA O MIXTO O FALAFEL O
                         QUESO)</td>
@@ -86,10 +99,52 @@
                 </tr>
                 <tr>
                     <td class="w-16">
-                        <iconify-icon icon="game-icons:meat" width="40" height="40"> </iconify-icon>
+                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
                     </td>
-                    <td class="flex-grow   text-left px-3 ">MENU LAHMACHUN </td>
-                    <td class="w-12   bg-pink-500 ">8.50€</td>
+                    <td class="flex-grow   text-left px-3 ">MENU LAHMACUN <br> (POLLO O TERNERA O MIXTO)</td>
+                    <td class="w-12   bg-pink-500 ">9.50€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <iconify-icon icon="majesticons:burger-line" width="40" height="40"></iconify-icon>
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">MENU HAMBURGUESA <br> (POLLO O TERNERA O VEGETAL O
+                        QUESO) </td>
+                    <td class="w-12   bg-pink-500 ">6.95€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <iconify-icon icon="tabler:salad" width="40" height="40"></iconify-icon>
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">ENSALADA <br>(VERDE o VERDE CON ATÚN o VERDE CON QUESO)
+                    </td>
+                    <td class="w-12   bg-pink-500 ">7.75€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <iconify-icon icon="emojione-monotone:fork-and-knife-with-plate" width="40"
+                            height="40"></iconify-icon>
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">PLATO COMBINADOS KEBAB <br>(POLLO o TERNERA o MIXTO) <br>
+                        +ENSALADAS </td>
+                    <td class="w-12   bg-pink-500 ">10.95€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <iconify-icon icon="emojione-monotone:fork-and-knife-with-plate" width="40"
+                            height="40"></iconify-icon>
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">PLATO COMBINADOS FALAFEL <br>( +ENSALADAS) </td>
+                    <td class="w-12   bg-pink-500 ">9.95€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <iconify-icon icon="emojione-monotone:fork-and-knife-with-plate" width="40"
+                            height="40"></iconify-icon>
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">PLATO COMBINADOS SOLO CARNE <br>(POLLO o TERNERA o MIXTO)
+                    </td>
+                    <td class="w-12   bg-pink-500 ">10.75€</td>
                 </tr>
             </tbody>
         </table>
@@ -137,13 +192,7 @@
                     <td class="flex-grow   text-left px-3 ">DONER KEBAB QUESO</td>
                     <td class="w-12   bg-pink-500 ">5.50€</td>
                 </tr>
-                <tr>
-                    <td class="w-12  ">
-                        <img src="img/doner.png" alt="doner pollo" class="h-8 inline-block">
-                    </td>
-                    <td class="flex-grow   text-left px-3 ">DONER KEBAB ATUN</td>
-                    <td class="w-12   bg-pink-500 ">5.50€</td>
-                </tr>
+
                 <tr>
                     <td class="w-12   ">
                         <img src="img/doner.png" alt="doner pollo" class="h-8 inline-block">
@@ -188,7 +237,7 @@
                     <td class="w-16">
                         <img src="img/durum.png" alt="durum pollo" class="h-10 inline-block">
                     </td>
-                    <td class="flex-grow   text-left px-3 ">DURUM FELAFEL</td>
+                    <td class="flex-grow   text-left px-3 ">DURUM FALAFEL</td>
                     <td class="w-12   bg-pink-500 ">5.50€</td>
                 </tr>
                 <tr>
@@ -198,13 +247,7 @@
                     <td class="flex-grow   text-left px-3 ">DURUM QUESO</td>
                     <td class="w-12   bg-pink-500 ">5.50€</td>
                 </tr>
-                <tr>
-                    <td class="w-16">
-                        <img src="img/durum.png" alt="durum pollo" class="h-10 inline-block">
-                    </td>
-                    <td class="flex-grow   text-left px-3 ">DURUM ATUN</td>
-                    <td class="w-12   bg-pink-500 ">5.50€</td>
-                </tr>
+
                 <tr>
                     <td class="w-16">
                         <img src="img/durum.png" alt="durum pollo" class="h-10 inline-block">
@@ -257,13 +300,7 @@
                     <td class="flex-grow   text-left px-3 ">PITA KEBAB QUESO</td>
                     <td class="w-12   bg-pink-500 ">5.50€</td>
                 </tr>
-                <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
-                    <td class="flex-grow   text-left px-3 ">PITA KEBAB ATUN</td>
-                    <td class="w-12   bg-pink-500 ">5.50€</td>
-                </tr>
+
                 <tr>
                     <td class="w-16">
                         <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
@@ -287,23 +324,31 @@
                     <td class="w-16">
                         <iconify-icon icon="majesticons:burger-line" width="40" height="40"></iconify-icon>
                     </td>
-                    <td class="flex-grow   text-left px-3 ">HAMBURGUESA BARBACOA</td>
-                    <td class="w-12   bg-pink-500 ">4.50€</td>
+                    <td class="flex-grow   text-left px-3 ">HAMBURGUESA POLLO</td>
+                    <td class="w-12   bg-pink-500 ">4.45€</td>
                 </tr>
                 <tr>
                     <td class="w-16">
                         <iconify-icon icon="majesticons:burger-line" width="40" height="40"></iconify-icon>
                     </td>
-                    <td class="flex-grow   text-left px-3 ">HAMBURGUESA MEXICANO</td>
-                    <td class="w-12   bg-pink-500 ">4.50€</td>
+                    <td class="flex-grow   text-left px-3 ">HAMBURGUESA TERNERA</td>
+                    <td class="w-12   bg-pink-500 ">4.45€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <iconify-icon icon="majesticons:burger-line" width="40" height="40"></iconify-icon>
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">HAMBURGUESA VEGETAL</td>
+                    <td class="w-12   bg-pink-500 ">4.45€</td>
                 </tr>
                 <tr>
                     <td class="w-16">
                         <iconify-icon icon="majesticons:burger-line" width="40" height="40"></iconify-icon>
                     </td>
                     <td class="flex-grow   text-left px-3 ">HAMBURGUESA DE QUESO</td>
-                    <td class="w-12   bg-pink-500 ">4.50€</td>
+                    <td class="w-12   bg-pink-500 ">4.45€</td>
                 </tr>
+
             </tbody>
         </table>
     </div>
@@ -321,22 +366,23 @@
                         <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
                     </td>
                     <td class="flex-grow   text-left px-3 ">LAHMACUN POLLO</td>
-                    <td class="w-12   bg-pink-500 ">5.95€</td>
+                    <td class="w-12   bg-pink-500 ">6.75€</td>
                 </tr>
                 <tr>
                     <td class="w-16">
                         <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
                     </td>
                     <td class="flex-grow   text-left px-3 ">LAHMACUN TERNERA</td>
-                    <td class="w-12   bg-pink-500 ">5.95€</td>
+                    <td class="w-12   bg-pink-500 ">6.75€</td>
                 </tr>
                 <tr>
                     <td class="w-16">
                         <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
                     </td>
                     <td class="flex-grow   text-left px-3 ">LAHMACUN MIXTO</td>
-                    <td class="w-12   bg-pink-500 ">5.95€</td>
+                    <td class="w-12   bg-pink-500 ">6.75€</td>
                 </tr>
+
             </tbody>
         </table>
     </div>
@@ -352,7 +398,7 @@
                             height="40"></iconify-icon>
                     </td>
                     <td class="flex-grow   text-left px-3 ">PLATO KEBAB MIXTO</td>
-                    <td class="w-12   bg-pink-500 ">6.95€</td>
+                    <td class="w-12   bg-pink-500 ">8.95€</td>
                 </tr>
                 <tr>
                     <td class="w-16">
@@ -360,7 +406,7 @@
                             height="40"></iconify-icon>
                     </td>
                     <td class="flex-grow   text-left px-3 ">PLATO KEBAB POLLO</td>
-                    <td class="w-12   bg-pink-500 ">6.95€</td>
+                    <td class="w-12   bg-pink-500 ">8.95€</td>
                 </tr>
                 <tr>
                     <td class="w-16">
@@ -368,7 +414,7 @@
                             height="40"></iconify-icon>
                     </td>
                     <td class="flex-grow   text-left px-3 ">PLATO KEBAB TERNERA</td>
-                    <td class="w-12   bg-pink-500 ">6.95€</td>
+                    <td class="w-12   bg-pink-500 ">8.95€</td>
                 </tr>
                 <tr>
                     <td class="w-16">
@@ -376,7 +422,7 @@
                             height="40"></iconify-icon>
                     </td>
                     <td class="flex-grow   text-left px-3 ">PLATO KEBAB SOLO CARNE</td>
-                    <td class="w-12   bg-pink-600 ">7.75€</td>
+                    <td class="w-12   bg-pink-500 ">8.75€</td>
                 </tr>
                 <tr>
                     <td class="w-16">
@@ -384,7 +430,7 @@
                             height="40"></iconify-icon>
                     </td>
                     <td class="flex-grow   text-left px-3 ">PLATO FALAFEL</td>
-                    <td class="w-12   bg-pink-500 ">6.95€</td>
+                    <td class="w-12   bg-pink-500 ">7.95€</td>
                 </tr>
             </tbody>
         </table>
@@ -399,14 +445,14 @@
                     <td class="w-16">
                         <iconify-icon icon="tabler:salad" width="40" height="40"></iconify-icon>
                     </td>
-                    <td class="flex-grow   text-left px-3 ">ENSALADA VERDE</td>
+                    <td class="flex-grow   text-left px-3 ">ENSALADA VERDE </td>
                     <td class="w-12   bg-pink-500 ">4.95€</td>
                 </tr>
                 <tr>
                     <td class="w-16">
                         <iconify-icon icon="tabler:salad" width="40" height="40"></iconify-icon>
                     </td>
-                    <td class="flex-grow   text-left px-3 ">ENSALADA VERDE CON ATÚN</td>
+                    <td class="flex-grow   text-left px-3 ">ENSALADA VERDE CON ATÚN </td>
                     <td class="w-12   bg-pink-500 ">5.50€</td>
                 </tr>
                 <tr>
@@ -416,27 +462,7 @@
                     <td class="flex-grow   text-left px-3 ">ENSALADA VERDE CON QUESO</td>
                     <td class="w-12   bg-pink-500 ">5.50€</td>
                 </tr>
-                <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="tabler:salad" width="40" height="40"></iconify-icon>
-                    </td>
-                    <td class="flex-grow   text-left px-3 ">ENSALADA MIXTA</td>
-                    <td class="w-12   bg-pink-500 ">7.50€</td>
-                </tr>
-                <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="tabler:salad" width="40" height="40"></iconify-icon>
-                    </td>
-                    <td class="flex-grow   text-left px-3 ">ENSALADA CON ATÚN</td>
-                    <td class="w-12   bg-pink-500 ">7.90€</td>
-                </tr>
-                <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="tabler:salad" width="40" height="40"></iconify-icon>
-                    </td>
-                    <td class="flex-grow   text-left px-3 ">ENSALADA CON QUESO CABRA</td>
-                    <td class="w-12   bg-pink-500 ">7.90€</td>
-                </tr>
+
             </tbody>
         </table>
     </div>
@@ -452,33 +478,121 @@
                     <td class="w-16">
                         <iconify-icon icon="game-icons:sandwich" width="40" height="40"></iconify-icon>
                     </td>
-                    <td class="flex-grow   text-left px-3 ">BOCADILLO BACON Y QUESO</td>
-                    <td class="w-12   bg-pink-500 ">4.95€</td>
+                    <td class="flex-grow   text-left px-3 ">BOCADILLO QUESO</td>
+                    <td class="w-12   bg-pink-500 ">4.75€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <iconify-icon icon="game-icons:sandwich" width="40" height="40"></iconify-icon>
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">BOCADILLO ATÚN</td>
+                    <td class="w-12   bg-pink-500 ">5.25€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <iconify-icon icon="game-icons:sandwich" width="40" height="40"></iconify-icon>
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">BOCADILLO FALAFEL CON QUESO </td>
+                    <td class="w-12   bg-pink-500 ">5.25€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <iconify-icon icon="game-icons:sandwich" width="40" height="40"></iconify-icon>
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">BOCADILLO DE FUET</td>
+                    <td class="w-12   bg-pink-500 ">5.25€</td>
                 </tr>
                 <tr>
                     <td class="w-16">
                         <iconify-icon icon="game-icons:sandwich" width="40" height="40"></iconify-icon>
                     </td>
                     <td class="flex-grow   text-left px-3 ">BOCADILLO JAMÓN SERRANO</td>
-                    <td class="w-12   bg-pink-500 ">4.95€</td>
+                    <td class="w-12   bg-pink-500 ">4.75€</td>
                 </tr>
                 <tr>
                     <td class="w-16">
                         <iconify-icon icon="game-icons:sandwich" width="40" height="40"></iconify-icon>
                     </td>
-                    <td class="flex-grow   text-left px-3 ">BOCADILLO DE TORTILLA FRANCESA</td>
-                    <td class="w-12   bg-pink-500 ">4.95€</td>
+                    <td class="flex-grow   text-left px-3 ">BOCADILLO JAMÓN DULCE</td>
+                    <td class="w-12   bg-pink-500 ">4.75€</td>
                 </tr>
                 <tr>
                     <td class="w-16">
                         <iconify-icon icon="game-icons:sandwich" width="40" height="40"></iconify-icon>
                     </td>
-                    <td class="flex-grow   text-left px-3 ">BOCADILLO DE QUESO</td>
-                    <td class="w-12   bg-pink-500 ">4.95€</td>
+                    <td class="flex-grow   text-left px-3 ">BOCADILLO BACON CON QUESO</td>
+                    <td class="w-12   bg-pink-500 ">5.25€</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <!-- TAPAS -->
+    <div class="m-2 pt-10" id="bikinis">
+        <h1 class="text-3xl text-pink-500 text-left underline "> TAPAS</h1>
+        <table class="w-full table-fixed text-center ">
+            <tbody>
+                <tr>
+                    <td class="w-16">
+                        <img src="img/tapas.png" alt="tapas" class="h-10 inline-block">
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">PATATAS FRITAS</td>
+                    <td class="w-12   bg-pink-500 ">3.20€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <img src="img/tapas.png" alt="tapas" class="h-10 inline-block">
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">PATATAS BRAVAS</td>
+                    <td class="w-12   bg-pink-500 ">4.20€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <img src="img/tapas.png" alt="tapas" class="h-10 inline-block">
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">ALITAS DE POLLO(6 Uds)</td>
+                    <td class="w-12   bg-pink-500 ">5.90€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <img src="img/tapas.png" alt="tapas" class="h-10 inline-block">
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">NUGGETS DE POLLO(6 Uds)</td>
+                    <td class="w-12   bg-pink-500 ">5.30€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <img src="img/tapas.png" alt="tapas" class="h-10 inline-block">
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">CROQUETAS DE POLLO(6 Uds)</td>
+                    <td class="w-12   bg-pink-500 ">5.45€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <img src="img/tapas.png" alt="tapas" class="h-10 inline-block">
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">CALAMARES</td>
+                    <td class="w-12   bg-pink-500 ">5.30€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <img src="img/tapas.png" alt="tapas" class="h-10 inline-block">
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">TAPA DE FUET</td>
+                    <td class="w-12   bg-pink-500 ">2.95€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <img src="img/tapas.png" alt="tapas" class="h-10 inline-block">
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">OLIVAS RELLENAS CON ANCHOAS</td>
+                    <td class="w-12   bg-pink-500 ">2.95€</td>
                 </tr>
             </tbody>
         </table>
     </div>
+
 
     <!-- BIKINIS -->
 
@@ -579,7 +693,7 @@ pizza4estaciones.jpg  pizzabacon.jpg  pizzacarbonara.jpg  pizzajamón.jpg     pi
                     <td class="w-16">
                         <iconify-icon icon="game-icons:full-pizza" width="40" height="40"></iconify-icon>
                     </td>
-                    <td class="flex-grow   text-left px-3 ">JAMÓN</td>
+                    <td class="flex-grow   text-left px-3 ">JAMÓN YORK</td>
                     <td class="w-12   bg-pink-600 ">7.75€</td>
                     <td class="w-12   bg-pink-500 ">9.75€</td>
                 </tr>
@@ -607,83 +721,173 @@ pizza4estaciones.jpg  pizzabacon.jpg  pizzacarbonara.jpg  pizzajamón.jpg     pi
                     <td class="w-12   bg-pink-600 ">7.75€</td>
                     <td class="w-12   bg-pink-500 ">9.75€</td>
                 </tr>
+                <tr>
+                    <td class="w-16">
+                        <iconify-icon icon="game-icons:full-pizza" width="40" height="40"></iconify-icon>
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">CEBOLLA CERMELIZADA </td>
+                    <td class="w-12   bg-pink-600 ">7.75€</td>
+                    <td class="w-12   bg-pink-500 ">9.75€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <iconify-icon icon="game-icons:full-pizza" width="40" height="40"></iconify-icon>
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">BOLOÑESA</td>
+                    <td class="w-12   bg-pink-600 ">7.75€</td>
+                    <td class="w-12   bg-pink-500 ">9.75€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <iconify-icon icon="game-icons:full-pizza" width="40" height="40"></iconify-icon>
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">SALAMI</td>
+                    <td class="w-12   bg-pink-600 ">7.75€</td>
+                    <td class="w-12   bg-pink-500 ">9.75€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <iconify-icon icon="game-icons:full-pizza" width="40" height="40"></iconify-icon>
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">GUINARDO</td>
+                    <td class="w-12   bg-pink-600 ">7.75€</td>
+                    <td class="w-12   bg-pink-500 ">9.75€</td>
+                </tr>
+                <tr>
+                    <td class="w-16">
+                        <iconify-icon icon="game-icons:full-pizza" width="40" height="40"></iconify-icon>
+                    </td>
+                    <td class="flex-grow   text-left px-3 ">KEBAB </td>
+                    <td class="w-12   bg-pink-600 ">7.75€</td>
+                    <td class="w-12   bg-pink-500 ">9.75€</td>
+                </tr>
             </tbody>
         </table>
     </div>
+
+
+    <!-- cafe -->
+
+
+    <div class="m-2 pt-10 " id="cafe">
+        <img src="img/cafe.avif" alt="cervezas" class="  inline-block">
+        <h1 class="text-3xl text-pink-500 text-left underline ">CAFE</h1>
+        <table class="w-full table-fixed text-center ">
+            <tbody>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CAFE CON LECHE</td>
+                    <td class="w-12   bg-pink-500 ">1.65€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CAFE SOLO</td>
+                    <td class="w-12   bg-pink-500 ">1.30€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CORTADO</td>
+                    <td class="w-12   bg-pink-500 ">1.45€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CAFE AMERICANO</td>
+                    <td class="w-12   bg-pink-500 ">1.45€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CARAJILLO</td>
+                    <td class="w-12   bg-pink-500 ">2.20€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">VASO DE LECHE</td>
+                    <td class="w-12   bg-pink-500 ">1.35€</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <!-- infusiones -->
+
+    <div class="m-2 pt-10 " id="infusiones">
+        <h1 class="text-3xl text-pink-500 text-left underline ">INFUSIONES</h1>
+        <table class="w-full table-fixed text-center ">
+            <tbody>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">TÉ VERDE</td>
+                    <td class="w-12   bg-pink-500 ">1.50€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">TILA</td>
+                    <td class="w-12   bg-pink-500 ">1.50€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">TÉ ROJO</td>
+                    <td class="w-12   bg-pink-500 ">1.50€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">MANZANILLA</td>
+                    <td class="w-12   bg-pink-500 ">1.50€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">POLEO MENTA</td>
+                    <td class="w-12   bg-pink-500 ">1.50€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">FRUTAS DEL BOSQUE</td>
+                    <td class="w-12   bg-pink-500 ">1.50€</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
     <!-- REFRESCOS -->
     <div class="m-2 pt-10 " id="refrescos">
         <h1 class="text-3xl text-pink-500 text-left underline ">REFRESCOS</h1>
         <table class="w-full table-fixed text-center ">
             <tbody>
                 <tr>
-                    <td class="w-16">
-                        <img src="img/refrescos/cola.png" alt="cola" class="h-12 inline-block">
-                    </td>
                     <td class="flex-grow   text-left px-3 ">REFRESCO</td>
-                    <td class="w-12   bg-pink-500 ">2.50€</td>
+                    <td class="w-12   bg-pink-500 ">2.30€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <img src="img/refrescos/vichy.png" alt="vichy" class="h-16 inline-block">
-                    </td>
                     <td class="flex-grow   text-left px-3 ">VICHY CATALAN</td>
-                    <td class="w-12   bg-pink-500 ">2.80€</td>
-                </tr>
-                <tr>
-                    <td class="w-16">
-                        <img src="img/refrescos/schweppes.png" alt="schweppes" class="h-16 inline-block">
-                    </td>
-                    <td class="flex-grow   text-left px-3 ">SCHWEPPES TONICA</td>
-                    <td class="w-12   bg-pink-500 ">2.80€</td>
-                </tr>
-                <tr>
-                    <td class="w-16">
-                        <img src="img/refrescos/juice.png" alt="juice" class="h-16 inline-block">
-                    </td>
-                    <td class="flex-grow   text-left px-3 ">ZUMO MELECOTON NARANJA PIÑA</td>
                     <td class="w-12   bg-pink-500 ">2.50€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <img src="img/refrescos/redbull.png" alt="redbull" class="h-12 inline-block">
-                    </td>
-                    <td class="flex-grow   text-left px-3 ">REDBULL</td>
-                    <td class="w-12   bg-pink-500 ">2.80€</td>
+                    <td class="flex-grow   text-left px-3 ">SCHWEPPES TONICA LIMÓN</td>
+                    <td class="w-12   bg-pink-500 ">2.50€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <img src="img/refrescos/powerking.png" alt="powerking" class="h-12 inline-block">
-                    </td>
+                    <td class="flex-grow   text-left px-3 ">ZUMO MELECOTON NARANJA PIÑA</td>
+                    <td class="w-12   bg-pink-500 ">2.30€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">REDBULL</td>
+                    <td class="w-12   bg-pink-500 ">2.50€</td>
+                </tr>
+                <tr>
                     <td class="flex-grow   text-left px-3 ">POWER KING</td>
                     <td class="w-12   bg-pink-500 ">1.90€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <img src="img/refrescos/chufi.png" alt="monster" class="h-16 inline-block">
-                    </td>
                     <td class="flex-grow   text-left px-3 ">CHUFFI</td>
-                    <td class="w-12   bg-pink-500 ">2.80€</td>
+                    <td class="w-12   bg-pink-500 ">2.50€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
                     <td class="flex-grow   text-left px-3 ">CACAOLAT</td>
-                    <td class="w-12   bg-pink-500 ">2.80€</td>
+                    <td class="w-12   bg-pink-500 ">2.50€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
                     <td class="flex-grow   text-left px-3 ">AGUA 50cl</td>
                     <td class="w-12   bg-pink-500 ">1.75€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
                     <td class="flex-grow   text-left px-3 ">AGUA 1.5l</td>
                     <td class="w-12   bg-pink-500 ">2.50€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">REFRESCOS 2L <br>(COLA FANTA 7UP)
+                    <td class="w-12   bg-pink-500 ">3.50€</td>
                 </tr>
             </tbody>
         </table>
@@ -695,69 +899,63 @@ pizza4estaciones.jpg  pizzabacon.jpg  pizzacarbonara.jpg  pizzajamón.jpg     pi
 
 
     <div class="m-2 pt-10 " id="cervezas">
-        <h1 class="text-3xl text-pink-500 text-left underline ">CERVEZAS</h1>
+        <img src="img/cervezas.png" alt="cervezas" class=" h-32 inline-block">
+        <br>
+
+        <h1 class="text-3xl text-pink-500 text-left underline ">CERVEZAS
+
+        </h1>
+
         <table class="w-full table-fixed text-center ">
             <tbody>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
+
                     <td class="flex-grow   text-left px-3 ">ESTRELLA DAMM</td>
-                    <td class="w-12   bg-pink-500 ">2.50€</td>
+                    <td class="w-12   bg-pink-500 ">2.30€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
+
                     <td class="flex-grow   text-left px-3 ">ESTRELLA GALICIA </td>
-                    <td class="w-12   bg-pink-500 ">2.50€</td>
+                    <td class="w-12   bg-pink-500 ">2.30€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
+
+                    <td class="flex-grow   text-left px-3 ">DAMM LIMÓN</td>
+                    <td class="w-12   bg-pink-500 ">2.30€</td>
+                </tr>
+                <tr>
+
                     <td class="flex-grow   text-left px-3 ">VOLL DAMM</td>
                     <td class="w-12   bg-pink-500 ">2.80€</td>
                 </tr>
+
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
+
                     <td class="flex-grow   text-left px-3 ">SAN MIQUEL</td>
                     <td class="w-12   bg-pink-500 ">1.90€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
+
                     <td class="flex-grow   text-left px-3 ">HEINKIEN</td>
                     <td class="w-12   bg-pink-500 ">2.80€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
+
                     <td class="flex-grow   text-left px-3 ">DESPERADOS</td>
                     <td class="w-12   bg-pink-500 ">2.80€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
+
                     <td class="flex-grow   text-left px-3 ">CORONITA</td>
                     <td class="w-12   bg-pink-500 ">2.80€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
+
                     <td class="flex-grow   text-left px-3 ">DESPERADOS MOJITO</td>
                     <td class="w-12   bg-pink-500 ">2.80€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
+
                     <td class="flex-grow   text-left px-3 ">FRE DAM ZERO LIMON Y AZUL</td>
                     <td class="w-12   bg-pink-500 ">2.30€</td>
                 </tr>
@@ -767,54 +965,216 @@ pizza4estaciones.jpg  pizzabacon.jpg  pizzacarbonara.jpg  pizzajamón.jpg     pi
     <!-- GINTONIC -->
 
     <div class="m-2 pt-10 " id="gintonic">
+        <img src="img/gintonic.webp" alt="cervezas" class=" h-32 inline-block">
         <h1 class="text-3xl text-pink-500 text-left underline ">GINTONIC</h1>
         <table class="w-full table-fixed text-center ">
             <tbody>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
-                    <td class="flex-grow   text-left px-3 ">BEEFETER</td>
+
+                    <td class="flex-grow   text-left px-3 ">BEEFEATER</td>
                     <td class="w-12   bg-pink-500 ">6.90€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
+
                     <td class="flex-grow   text-left px-3 ">PUERTOS DE INDIA</td>
-                    <td class="w-12   bg-pink-500 ">6.90€</td>
+                    <td class="w-12   bg-pink-500 ">7.50€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
+
                     <td class="flex-grow   text-left px-3 ">LARIOS</td>
                     <td class="w-12   bg-pink-500 ">6.90€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
+
                     <td class="flex-grow   text-left px-3 ">SEGREMS</td>
                     <td class="w-12   bg-pink-500 ">7.90€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
+
                     <td class="flex-grow   text-left px-3 ">BOMBAY</td>
                     <td class="w-12   bg-pink-500 ">8.90€</td>
                 </tr>
                 <tr>
-                    <td class="w-16">
-                        <iconify-icon icon="game-icons:kebab-spit" width="40" height="40"> </iconify-icon>
-                    </td>
+
                     <td class="flex-grow   text-left px-3 ">CON REDBULL </td>
                     <td class="w-12   bg-pink-500 ">+1€</td>
                 </tr>
             </tbody>
         </table>
     </div>
+
+    <!-- cubatas en vaso tubo -->
+
+
+    <div class="m-2 pt-10 " id="cubatasTubo">
+        <h1 class="text-3xl text-pink-500 text-left underline ">CUBATAS EN VASO TUBO</h1>
+        <table class="w-full table-fixed text-center ">
+            <tbody>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">WHISKY CON COLA</td>
+                    <td class="w-12   bg-pink-500 ">5.90€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CHIVAS, CARDU</td>
+                    <td class="w-12   bg-pink-500 ">6.90€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">BLACK LABEL, JACK DANIELS</td>
+                    <td class="w-12   bg-pink-500 ">6.90€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">RED BULL</td>
+                    <td class="w-12   bg-pink-500 ">+1€</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- cubatas en copa balon -->
+
+    <div class="m-2 pt-10 " id="cubatasBalon">
+        <h1 class="text-3xl text-pink-500 text-left underline ">CUBATAS EN COPA BALÓN</h1>
+        <table class="w-full table-fixed text-center ">
+            <tbody>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">WHISKY CON COLA</td>
+                    <td class="w-12   bg-pink-500 ">7.50€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CHIVAS, CARDU</td>
+                    <td class="w-12   bg-pink-500 ">8.50€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">BLACK LABEL, JACK DANIELS</td>
+                    <td class="w-12   bg-pink-500 ">8.50€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">RED BULL</td>
+                    <td class="w-12   bg-pink-500 ">+1€</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- chupitos -->
+
+    <div class="m-2 pt-10 " id="chupitos">
+        <h1 class="text-3xl text-pink-500 text-left underline ">CHUPITOS</h1>
+        <table class="w-full table-fixed text-center ">
+            <tbody>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">WHISKY</td>
+                    <td class="w-12   bg-pink-500 ">2.40€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">WHISKY CARDU</td>
+                    <td class="w-12   bg-pink-500 ">2.90€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CHIVAS, BLACK LABEL</td>
+                    <td class="w-12   bg-pink-500 ">2.90€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">JACK DANIELS</td>
+                    <td class="w-12   bg-pink-500 ">2.90€</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- copas whisky -->
+
+    <div class="m-2 pt-10 " id="copasWhisky">
+        <h1 class="text-3xl text-pink-500 text-left underline ">COPAS WHISKY</h1>
+        <table class="w-full table-fixed text-center ">
+            <tbody>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">COPA</td>
+                    <td class="w-12   bg-pink-500 ">2.90€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CHIVAS</td>
+                    <td class="w-12   bg-pink-500 ">3.50€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CARDU</td>
+                    <td class="w-12   bg-pink-500 ">3.90€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">BLACK LABEL</td>
+                    <td class="w-12   bg-pink-500 ">3.50€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">JACK DANIELS</td>
+                    <td class="w-12   bg-pink-500 ">3.50€</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- VODKA -->
+
+
+    <div class="m-2 pt-10 " id="vodka">
+        <h1 class="text-3xl text-pink-500 text-left underline ">VODKA</h1>
+        <table class="w-full table-fixed text-center ">
+            <tbody>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">VASO TUBO ABSOLUT CON REFRESCO</td>
+                    <td class="w-12   bg-pink-500 ">5.90€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CIROC CON REFRESCO</td>
+                    <td class="w-12   bg-pink-500 ">6.90€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CON REDBUL</td>
+                    <td class="w-12   bg-pink-500 ">+1€</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- vodka en copa balon -->
+    
+    <div class="m-2 pt-10 " id="vodkaBalon">
+        <h1 class="text-3xl text-pink-500 text-left underline ">VODKA EN COPA BALON</h1>
+        <table class="w-full table-fixed text-center ">
+            <tbody>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">ABSOLUT</td>
+                    <td class="w-12   bg-pink-500 ">6.90€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CIROC</td>
+                    <td class="w-12   bg-pink-500 ">7.90€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CON REDBUL</td>
+                    <td class="w-12   bg-pink-500 ">+1€</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- chupito vodka -->
+
+    <div class="m-2 pt-10 " id="chupitoVodka">
+        <h1 class="text-3xl text-pink-500 text-left underline ">CHUPITO VODKA</h1>
+        <table class="w-full table-fixed text-center ">
+            <tbody>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">ABSOLUT VODKA</td>
+                    <td class="w-12   bg-pink-500 ">2.40€</td>
+                </tr>
+                <tr>
+                    <td class="flex-grow   text-left px-3 ">CIROC</td>
+                    <td class="w-12   bg-pink-500 ">2.90€</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
 
     <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
     <script>
